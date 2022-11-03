@@ -1,31 +1,66 @@
-body{
-    background-color: #aad4cf;
+html {
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 20px;
+    background-color: #aad4cf;
+}
+
+body{
+    background-color: #ceeae7;
     margin-left: 200px;
     margin-right: 200px;
 }
 
 header{
-    font-size: 4rem;
-    line-height: 9rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-weight: 300;
-    padding: 10rem;
     text-align: center;
+    padding: 130px 0px 130px 0px;
+    margin-top: -10rem;
+    position:relative;
 
     background-image: url(../midterm-assets/lone-starfish-wide.jpg);
     background-repeat: no-repeat;
-    background-position:top;
+    background-position: center;
+}
+
+.title{
+    padding-top: 10.5rem;
+    line-height: 10px;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 4rem;
+    font-weight: lighter;
+    margin-top: 2rem;
+    margin-left: 10px;
+}
+
+h2{
+    line-height: 5px;
+    font-size: 2rem;
+    font-weight: lighter;
+
+    padding-left: 15px;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    line-height: 0%;
+}
+
+h4{
+    font-size: 1.25rem;
+    font-weight: lighter;
+    line-height: 0%;
 }
 
 .navbar{
     position:relative;
     display: inline-block;
-    word-spacing: 16rem;
-    font-size: 1.7rem;
+    text-align: center;
+    
+    word-spacing: 0px;
+    margin-top: -6rem;
 }
 
 a:link{
@@ -40,21 +75,16 @@ a:link{
     padding-right: 100px;
     padding-top: 10px;
 }
-.box1{
-    border-right: 1px solid black;
-}
 
-.box2{
-    border-right: 1px solid black;
-}
-
-h2{
-    font-weight: 300;
+#box1,
+#box2 {
+    border-right: 1px solid rgb(0, 0, 0);
 }
 
 .starfish{
-    width: 1050px;
-    margin: 0 auto;
+    width: 98%;
+    margin-top: 5;
+    padding-left: 10px;
 }
 
 .starfish img{
@@ -68,11 +98,6 @@ article{
     line-height: 1.5rem;
 }
 
-h3{
-    font-size: 1.5rem;
-    font-weight: lighter;
-    line-height: 0%;
-}
 
 ul{
     display: block;
@@ -81,5 +106,62 @@ ul{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+ul.facts{
     padding-inline-start: 40px;
+}
+
+form {
+    margin: auto;
+    line-height: 1.5rem;
+}
+
+
+input[type=text] {
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+label {
+    font-size: 1.05rem;
+    line-height: 40px;
+}
+
+input[type=submit] {
+    background-color: #ceeae7;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 0.6rem;
+    text-transform: uppercase;
+
+}
+
+fieldset {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+footer {
+    padding: 15px;
+    text-align: right;
 }
